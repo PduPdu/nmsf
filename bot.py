@@ -19,7 +19,7 @@ async def on_message(message):
 
     if message.content.startswith('MiFursona'):
         ranimal=random.choice(animales)
-        rinteres="".join(random.choice(intereses)+", "+random.choice(intereses)".")
+        rinteres="".join(random.choice(intereses)+", "+random.choice(intereses)+".")
         rgenero=random.choice(generos)
         rsexualidad=random.choice(sexualidades)
         redad=random.randint(1,100)
